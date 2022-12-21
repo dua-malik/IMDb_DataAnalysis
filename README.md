@@ -1,33 +1,53 @@
-#  Exploring Motor Vehicle Collision Rates in New York:
+# ANALYZING & VISUALIZING THE IMDb DATABASE USING SQL & PYTHON 
 
 ## Tech-Stack:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ## Objective:
 
+In this project, I analyzed the largest and most comprehensive film/TV database on the web. This source stores a multitude of information ranging from TV Shows to Movies and houses a timeline of Actors/Actresses' active acting careers serving as a time capsule of their work and impact on the arts. IMDb does not only focus on Hollywood-based productions and actors/actresses but encapsulates the international community of Film. 
+
+I analyzed the careers of four prolific actors and actresses, including Julie Andrews, Bruce Lee, Kirk Douglas, and Audrey Hepburn. Two primary analyses were conducted to explore different aspects of the IMDb database.
+ 
+In the first analysis, I explored the span of the actors as mentioned earlier and actresses acting careers in years along with the total number of movies made within each acting year. Then, I divided the span of all four actors/actresses' into 4 disjoint periods and computed the total number of movies each actor/actress participated in (regardless of genre) to analyze their career progress. Finally, I compared the career progress of all actors and actresses against each other. 
+
+In the second analysis, I isolated and analyzed actors and actresses that participated in the maximum and the minimum number of movies between 1968 and 1977. 
 
 
 ## Summary and Findings: 
 
-### Distribution of Accidents Between December 2019 and November 2021:
+### Exploring Trends and Distributions of Active Acting Careers
 
-After conducting the first analysis on the dataset ranging from December 2019 - November 2021, it was evident that Nissan Vehicle Makes were disproportionately involved in accidents compared to GMC, HINO, and KIA. Although one might draw the conclusion that drivers that have a Nissan vehicle make are more likely to get into an accident, it is important to understand what type of vehicle a Nissan is. 
+After producing the bar graphs visualizing the career progress of each actor and actress during their active years, it was evident that Julie Andrews and Kirk Douglas were the most active compared to their counterparts. If we take a closer look at the years active, we can see that Kirk Douglas's career spanned 57 years, Julie Andrew's currently spans 50 years, Audrey Hepburn's spanned 29 years, and Bruce Lee's spanned 27 years. It is essential to mention that out of all four actors/actresses, only one is still alive. That being, Julie Andrews. Life span and at what age the actors/actresses started acting played a significant role in how active they were as artists of film.
 
-Nissans are considered sedans, a vehicle type that is the most common car in America (“What is the most common car in America?”, 2022). Compared to GMC’s and HINO trucks, it is more likely that sedans are involved in more accidents considering their frequency in the states. Looking further into the analysis, KIA’s are considered sedan vehicle types as well. Compared to HINO and GMC they were also involved in around the same, if not more collisions during this period. This led to the question as to why more Nissan’s were involved in collisions compared to Kia’s as both are sedans. It is important to note that Nissan vehicle makes are one of the best-selling vehicles in the state of New York, which explains why they are involved in a considerable amount of collisions compared to the other vehicle makes (“The Bestselling Cars in Every State — and Your Cost To Own Them”, 2022).
+ For example, if we focus on Bruce Lee and Audrey Hepburn, the two counterparts that had almost half the acting careers of Julie Andrews and Kirk Douglas, we can explore factors that were mentioned before. Concentrating on the age at which each artist started acting provides more insight into how they continued working for a longer or shorter duration.
+ 
+  Audrey Hepburn started acting at 22 and starred in her first movie, "Roman Holiday", which earned her the "Best Actress" Academy Award at 24. The peak of her career was in 1961 when she starred in the classic, "Breakfast at Tiffany's", earning her another Oscar nomination (Audrey Hepburn - IMDb, n.d.). Although she attained stardom, Hepburn decided to retire at the height of her career to focus on her family (Audrey Hepburn, 2017). Whereas, Bruce Lee was a child actor, participating in his first movie at the age of 6 years old. Despite starting in show business at such a young age, he suffered an untimely death at the ripe age of 32. 
 
-Furthermore, if we take a look at the years for each of the vehicles makes, it is evident that in almost all vehicle makes, 2020 had the greatest number of collisions. This may be since New York hosts one of the largest tourist locations in the world, NYC. New York Cities attracts millions of tourists a month which may have been a cause for the collision rate being high. However, if we focus on the rate of 2021 collisions, we see a decline. This can be explained by looking at travel restrictions that were put in place during the pandemic.
+Likewise, Julie Andrews was a child actor who participated in movies from the age of 12. She starred in classics such as "The Sound of Music" and an Oscar for Best Actress in 1965. Around the same time, Kirk Douglas, Andrews' senior, was 14 years into his acting career. Douglas lived until he was 103, dedicating most of his life to show business (Contributors to Wikimedia projects, 2002b). He mostly starred in dramas, westerns, and war films, genres that were amplified during the World War (IMDb, n.d.). 
 
-<br>
-
-### Analyzing Trends Between Motor Vehicle Collision and Date of Occurence:
-
-As we focus on the second analysis, it is evident what role the pandemic had on motor vehicle collisions. The graph demonstrates a sharp decline in vehicle motor collisions across all vehicles makes around Mar-April 2020. This was around the time the strictest limitations were set in place to avoid spreading COVID. During this time, cities were under lockdown, many workplaces shifted to remote work, and schools were also taught online. This shift limited the need to drive around the state as it was considered a risk to the public. Furthermore, if we take a closer look at the second dip (between Jan-Mar 2021), we can expect a surge in COVID cases as well as many things such as work still being remote. If we look at statistics of COVID cases around this time daily cases ranged from 9,000-15,000 (“New York Coronavirus Map and Case Count”, 2021).
+It is also interesting to point out that all actors/actresses analyzed acted around the same period.
 
 <br>
 
-### Distribution of Vehicle Types Involved in Motor Vehicle Collisions Between December 2019 and November 2021:
+### In-Depth Analysis of Active Acting Career Trends Between 1946-2010:
 
-A Moving along to the findings of the third analysis, as I stated before regarding sedans being a popular vehicle type among Americans, it is evident from the dataset that they are involved in a greater number of collisions compared to other vehicle types (56.82%). However, it is important to note that sport utility vehicles were also involved in a lot of collisions (38.69%). Like sedans, sport utility vehicles are a common choice among vehicle owners in America. Such vehicle types are made by a wide variety of car manufacturers including Nissan. Such statistics make sense as there are 9,552,792 standard vehicles (including sport utility vehicles and sedans) registered in the state of New York, compared to the 139,869 taxis, and 26,238 buses, it is logical to conclude that standard vehicles are involved in more collisions given the proportion of each vehicle type registered in the state (“NYS Vehicle Registrations of File - End of Year 2018”, 2018). 
+Now that we have illustrated the overall acting careers of all the figures we are interested in, I conducted further analysis to explore during which period each actor and actress was most active/famous. The line graph in Figure 2, illustrates the trends of each public figure's career, with Kirk Douglas remaining on top for most of each period. Furthermore, we can see that both Hepburn and Lee halt their acting career due to retirement or death, whereas Andrews and Douglas remain relatively active during all four periods.
+
+ In fact, between 1982-2001, we see Andrews finally overtake Douglas in terms of the number of movies they participated in compared to others. During this time, Andrews was starring in what is known as cult classics today including "Addams Family Values" and "The Princess Diaries" (Sort by Popularity - Most Popular Feature Films/TV Movies With Julie Andrews - IMDb, n.d.). Furthermore, she was around the age of 50-70. Around this time (1982-2001) Douglas was in his 60s-80s and recovering from a fatal stroke in 1979 (Russell, 2011). 
+
+Not only do the trends of the actor's and actresses' active careers showcase their dedication to their craft. If we focus specifically on Julie Andrews and Kirk Douglas, we can see when certain genres start becoming popularized. During Douglas' "golden years" between 1946-1981 many events occurred including the Korean War and the Vietnam War. Douglas is known for his work in westerners and war movies. At that time, there was a rise in propaganda as Hollywood helped the government increase military enrollment numbers (Tommerdahl, n.d.). Such films explored themes like patriotism and the American Dream, speaking to the masses. 
+
+During the early 90s-00s, there was a shift in what got the general public to the theaters. With a period of rest, no war, and the fight for equality, Hollywood started investing in romantic comedies as they proved to be consistent earners at the box office (Syfret, 2017). Julie Andrews was a big name at the time, specifically in the genre of romantic-comedies. From playing "Queen Genovia" in "The Princess Diaries" to starring in movies like "Shrek", Andrews assimilated to Hollywood's changing tides, whereas other actors/actresses that were used in this analysis were not (Cook, 2022). 
+
+<br>
+
+### Analyzing Any Overlapping of Actors/Actresses During Active Career:
+
+After analyzing trend patterns and the distribution of how many movies each actor/actress participated in, I wanted to further explore the proportion of films participated in as a whole to put each figure's impact during each period. Using a donut chart or pie chart, it was easy to see the effect each figure had during each respective period with the number of movies they did. As mentioned before, Hepburn and Lee stopped participating in movies after the second period. Furthermore, in the latter half of the period's exploration we can also see how and when Andrews overtakes Douglas in several movies participated in. 
+
+In the first period, we see Andrews has participated in the most minor proportion of movies compared to her counterparts. In contrast, in the second period, we see her surpass Audrey Hepburn (a prominent starlet). Taking a closer look at the movies released during this time provides insight into the sudden incline of the number of movies Andrews participated in. In fact, in the year 1964, Julie Andrews was said to have "been propelled to stardom" after her performance in "My Fair Lady", a musical that would be adapted into a film in the mid-60s and given to Hepburn to star in creating controversy as the producers stated a starlet was required for the part, which Andrews was not. Although, during the same year Andrews went on to win an Academy Award and Golden Globe award for her role in the classic, "Mary Poppins" (Contributors to Wikimedia projects, 2001). 
+
 
 <br>
 <br>
