@@ -1,20 +1,11 @@
 #  Exploring Motor Vehicle Collision Rates in New York:
 
 ## Tech-Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ## Objective:
 
-In this project, I analyzed a dataset detailing motor vehicle collisions in the state of New York. The dataset spanned from the year 2012 to the present day. Each row represented a new collision (recorded daily). With over three million rows of data, I was tasked with extracting a subset of rows ranging from December 1st, 2019, to November 30th, 2021 to perform three separate analyses. Furthermore, I was responsible for analyzing data regarding the following vehicle makes which were used in the first two analyses:
-<br>
 
-1. Nissan
-2. Kia
-3. Hino
-4. GMC
-<br>
-
-Using this subset of data, I explored how many accidents each vehicle make was involved in during the period. The first analysis investigated vehicle collisions on a yearly basis. The second analysis was like the first, however this time, I was also interested in the number of vehicle collisions on a month-to-month basis. The third and final analysis focused on the vehicle type. In this analysis, I investigated the overall proportion of vehicle collisions in New York based on vehicle type.
 
 ## Summary and Findings: 
 
